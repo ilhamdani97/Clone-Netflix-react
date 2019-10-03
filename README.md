@@ -6,7 +6,7 @@ This project is still on very early development stage. If you want to use for pr
 ## Screenshots
 
 <p float="left">
-  <img src="./screen/screen.png" width="100%" height="400" alt="Input Table"/>
+  <img src="./screen/screen.png" width="100%" height="450" alt="Input Table"/>
 
   
 </p>
