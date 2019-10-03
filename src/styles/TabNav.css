@@ -1,0 +1,120 @@
+/* Tab Door */
+.tab-icon-door{
+    width: 2.8125rem;
+    height: 2.8125rem ;
+    fill: var(--main-grey);
+}
+/* Media Tab Door */
+@media (max-width: 900px){
+     .tab-icon-door{
+        width: 2.4rem;
+        height: 2.4rem;
+     }
+     
+}
+@media (max-width: 740px){
+    .tab-icon-door{
+       width: 2.2rem;
+       height: 2.2rem;
+    }
+}
+@media (max-width: 540px){
+    .tab-icon-door{
+       width: 2rem;
+       height: 2rem;
+    }
+}
+
+/* Tab Device */
+.tab-icon-device{
+    width: 9.3rem;
+    height: 9.3rem ;
+    fill: var(--main-grey);
+}
+/* Media Tab Device */
+@media (max-width: 900px){
+    
+}
+@media (max-width: 740px){
+    .tab-icon-device{
+       width: 7rem;
+       height: 7rem;
+    }
+}
+@media (max-width: 540px){
+    .tab-icon-device{
+       width: 6rem;
+       height: 6rem;
+    }
+}
+/* Tab Price */
+.tab-icon-price{
+    width: 4.375rem;
+    height: 4.375rem ;
+    fill: var(--main-grey);
+}
+/* Media Tab Price*/
+@media (max-width: 900px){
+    .tab-icon-price{
+       width: 2.4rem;
+       height: 2.4rem;
+    }
+}
+@media (max-width: 740px){
+    .tab-icon-price{
+       width: 2.2rem;
+       height: 2.2rem;
+    }
+}
+@media (max-width: 540px){
+    .tab-icon-price{
+       width: 2rem;
+       height: 2rem;
+    }
+}
+@media (min-width: 800px){
+    .mdCancel{
+        display: none;
+    }
+    .smCancel{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    .lgCancel{
+        display: none;
+    }
+    .smCancel{
+        display: none;
+    }
+}
+.tabs{
+    padding-top: 1rem;
+}
+.tabs-container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem; 
+    list-style: none;
+    color: var(--main-grey);    
+    margin: 0 4%;
+}
+ul li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+ul li:hover svg path{
+    fill: #fff;
+}
+.active{
+    border-bottom: 4px solid var(--main-red);
+}
+.tab-selected{
+    color: #fff;
+}
+.tab-selected svg path{
+    fill: #fff; 
+}
