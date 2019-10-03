@@ -6,7 +6,7 @@ This project is still on very early development stage. If you want to use for pr
 ## Screenshots
 
 <p float="left">
-  <img src="./screen/screen.png" width="100%" height="450" alt="Input Table"/>
+  <img src="./screen/screen.png" width="100%" height="460" alt="Input Table"/>
 
   
 </p>
@@ -24,9 +24,8 @@ follow these steps to install
 
 
 ```bash
-git clone https://github.com/ilhamdani97/APIPointOfSale
-cd APIPointOfSale
-npm install
+git clone https://github.com/ilhamdani97/Clone-Netflix-react.git
+cd Clone-Netflix-react
 npm start
 ```
 
